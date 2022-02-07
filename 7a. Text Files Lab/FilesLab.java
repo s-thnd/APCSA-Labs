@@ -35,6 +35,12 @@ public class FilesLab
 		}
 	}
 	
+	/**
+	 * Processes the integers by ordering them and edits the output file
+	 * @param inFile the file with the data
+	 * @param outFile the output file
+	 * @throws FileNotFoundException propagates the FileNotFoundException
+	 */
 	public static void processIntegers(String inFile, String outFile) throws FileNotFoundException
 	{
 		
@@ -80,6 +86,12 @@ public class FilesLab
 			+ " written to " + outFile);
 	}
 	
+	/**
+	 * Checks if a line has a certain string
+	 * @param inFile the lines to check
+	 * @param outFile the output file 
+	 * @throws FileNotFoundException propagates the FileNotFoundException
+	 */
 	public static void testLines(String inFile, String outFile) throws FileNotFoundException
 	{
 		PrintWriter myFile = new PrintWriter(outFile);
