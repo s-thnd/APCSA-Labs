@@ -1,13 +1,3 @@
-/**
- * The Car class creates Car objects and calls
- * methods related to Car objects
- * @author Shyam Thandullu
- * Collaborators: None
- * Teacher Name: Ms. Bailey
- * Period: 0
- * Due Date: 3/24/2022
- */
-
 public class Car
 {
 	
